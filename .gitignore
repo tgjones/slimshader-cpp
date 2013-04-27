@@ -8,8 +8,10 @@
 
 # Build results
 
-[Dd]ebug*/
-[Rr]elease/
+src/Tests/[Dd]ebug*/
+src/Tests/[Rr]elease/
+Library/[Dd]ebug*/
+Library/[Rr]elease/
 
 build/
 
