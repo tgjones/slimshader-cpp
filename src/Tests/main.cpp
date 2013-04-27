@@ -90,7 +90,7 @@ void CompareAssemblyOutput(string file, DxbcContainer& container)
 
 void TestFile(string file)
 {
-	file = "../../../shaders/" + file;
+	file = "../shaders/" + file;
 	string binaryFile = file + ".o";
 
 	auto binaryFileBytes = ReadFileBytes(binaryFile);
@@ -103,7 +103,8 @@ int main(int argc, char* argv[])
 {
 	try
 	{
-		TestFile("FxDis/test");
+		TestFile("FxDis/test_PS");
+		TestFile("FxDis/test_VS");
 		TestFile("HlslCrossCompiler/ds5/basic");
 		TestFile("HlslCrossCompiler/gs4/CubeMap_Inst");
 		TestFile("HlslCrossCompiler/hs5/basic");
