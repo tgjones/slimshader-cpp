@@ -10,8 +10,8 @@
 
 src/Tests/[Dd]ebug*/
 src/Tests/[Rr]elease/
-Library/[Dd]ebug*/
-Library/[Rr]elease/
+src/SDK/Library/[Dd]ebug*/
+src/SDK/Library/[Rr]elease/
 
 build/
 
